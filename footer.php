@@ -12,7 +12,7 @@
                             <a class="footer-ancor" href="https://goo.gl/maps/UCfHvgtEWrxCS5XZ7">123456, Одинцово, ул. Ленина, 10</a>
                             <a class="tel footer-ancor" href="tel:+79858566300">8&nbsp;(985)&nbsp;856 6300</a>
                             <a class="mail footer-ancor" href="mailto:liftcom_info@mail.ru">liftcom_info@mail.ru</a>
-                            <a class="developer footer-ancor" href="#">Разработано kubyshkin.r</a>
+                            <a class="developer footer-ancor" href="https://kubyshkin-r.github.io/">Разработано kubyshkin.r</a>
                         </div>
 
                         <?php
