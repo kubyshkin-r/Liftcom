@@ -1,0 +1,633 @@
+/*!
+Theme Name: liftcom 
+Author: Kubyshkin Roman
+Author URI: kubyshkin.r@gmail.com
+Version: 1.0.0
+*/
+
+
+/* общие */
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1110px;
+    margin: auto;
+    min-height: calc(100vh - 518px);
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.05em;    
+    text-transform: uppercase;
+}
+.index__h2{
+    padding: 40px 0 60px;
+    color: #fff;
+}
+p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+}
+.index__p{
+    color: #fff;
+}
+
+.delimiter{
+    width: 90px;
+    height: 6px;
+    background-color: #C8A35F;
+    
+}
+ul{
+    list-style-type: none;
+}
+
+
+
+/* общие закончились 
+***************************************************************** 
+*/
+
+
+
+
+
+/* affiche */
+
+.affiche{
+    background-image: url(images/header-bg.png);
+    background-size: cover;
+    padding: 164px 0;
+}
+.affiche__tagline{
+    border: 1px #fff solid;
+    width: 920px;
+    margin: auto;
+    padding: 53px 0;
+}
+.affiche__h1{
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.affiche__p{
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+
+/* affiche-other */
+
+.affiche-other{
+    background-size: cover;
+    padding: 145px 0 110px;
+}
+.affiche-other__tagline{
+    border: 1px #fff solid;
+    width: 920px;
+    margin: auto;
+    padding: 10px 0;
+}
+.affiche-other__h1{
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+
+/* услуги */
+
+.wrapper-body{
+    background-color: #2F343A;
+}
+.services{
+    padding-top: 124px;
+}
+.block-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block-containers{
+    background-color: #393F47; 
+    margin-bottom: 3px; 
+}
+.block-containers a{
+    display: block;
+    box-sizing: border-box;
+    padding: 48px;
+    width: 368px;
+    height: 240px;
+    transition: 0.7s;
+}
+.block-containers h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+}
+.circle{
+    width: 93px;
+    height: 93px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 70px auto;
+    background-position: center center;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+
+.block-containers a:hover{
+    background-color: #C8A35F;
+}
+a:hover .circle{
+    background-color: #fff;
+    background-size: 56px auto;
+}
+
+.rem{
+    background-image: url(images/rem2.png);
+}
+a:hover .rem{
+    background-image: url(images/rem.png);
+}
+.to{
+    background-image: url(images/to2.png);
+}
+a:hover .to{
+    background-image: url(images/to.png);
+}
+.ai{
+    background-image: url(images/ai2.png);
+}
+a:hover .ai{
+    background-image: url(images/ai.png);
+}
+.tos{
+    background-image: url(images/tos2.png);
+}
+a:hover .tos{
+    background-image: url(images/tos.png);
+}
+.dis{
+    background-image: url(images/dis2.png);
+}
+a:hover .dis{
+    background-image: url(images/dis.png);
+}
+.mm{
+    background-image: url(images/mm2.png);
+}
+a:hover .mm{
+    background-image: url(images/mm.png);
+}
+
+
+/* о компании */
+.company{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.company__bg{
+    position: absolute;
+    width: 410px;
+    height: 465px;
+    background-color: #393F47;
+    left: 33%;
+    top: 13%;   
+}
+.company__left{
+    width: 50%;
+    z-index: 2;
+    padding-right: 20px;
+    align-content: center;
+}
+.company__right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    z-index: 2;
+    align-content: center;
+}
+.company__block5{
+    width: 33%;
+    height: 160px;
+    background-color: #fff;
+    margin: 0 0 1px 1px;
+}
+.bg1{
+    background-image: url(images/bg1.png);
+}
+.bg2{
+    background-image: url(images/bg2.png);
+}
+.number{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    color: #000;
+    text-align: center;
+    padding-top: 23px;
+}
+.number+p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #000;
+    padding: 0 12px;
+    text-transform: uppercase;
+}
+
+
+/* map */
+.map{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.map-new{
+    display: none;
+}
+
+/* 404 */
+.error-404-h1{
+    font-size: 250px;
+    font-weight: 700;
+    text-align: center;
+    color: #C8A35F;
+    padding-top: 100px;
+}
+.error-404-p{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+/* @MEDIA */
+
+@media (max-width: 1140px){
+
+    /* affiche */
+    .affiche{
+        padding: 100px 35px;
+    }
+    .affiche__tagline{
+        width: auto;
+        padding: 36px 0 45px;
+    }
+    .affiche__h1{
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .affiche__p{
+        font-size: 30px;
+    }
+
+    /* affiche-other */
+    .affiche-other{
+        padding: 100px 35px;
+    }
+    .affiche-other__tagline{
+        width: auto;
+        padding: 10px 0;
+    }
+    .affiche-other__h1{
+        font-size: 48px;
+        line-height: 64px;
+    }
+
+    /* container */
+    .container{
+        margin-left: 35px;
+        margin-right: 35px;
+        min-height: calc(100vh - 477px);
+    }
+
+    /* услуги */
+    .services{
+        padding-top: 100px;
+    }
+    .index__h2 {
+        padding: 30px 0 40px;
+        color: #fff;
+    }
+    .block-containers{
+        width: 33%;
+    }
+    .block-containers a{
+        width: 100%;
+        height: 100%;
+        padding: 40px 5px;
+    }
+    .circle{
+        width: 85px;
+        height: 85px;
+        background-size: 60px auto;
+    }
+    .block-containers h4{
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    a:hover .circle{
+        background-size: 50px auto;
+    }
+    
+    /* о компании */
+    .company{
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+    .company__bg{
+        width: 352px;
+        height: 380px;
+        left: 33%;
+        top: 16%;   
+    }
+    .company__block5{
+        height: 130px;
+    }
+    .number{
+        font-size: 49px;
+        line-height: 64px;
+        padding-top: 19px;
+    }
+    .number+p{
+        font-size: 12px;
+        padding: 0 5px;
+    }
+    
+}
+
+@media (max-width: 960px){
+
+    /* услуги */
+    .block-containers a{
+        padding: 20px 5px;
+    }
+
+    /* о компании */
+    .company__bg{
+        width: 352px;
+        height: 380px;
+        left: 33%;
+        top: 20%;   
+    }
+    .company__block5{
+        height: 115px;
+    }
+    .number{
+        font-size: 38px;
+        line-height: 51px;
+    }
+    .number+p{
+        font-size: 10px;
+    }
+    /* 404 */
+    .error-404-h1{
+        padding-top: 50px;
+    }
+    .error-404-p{
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px){
+
+    /* affiche */
+    .affiche__h1{
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .affiche__p{
+        font-size: 21px;
+    } 
+
+    /* affiche-other */
+    .affiche-other__h1{
+        font-size: 35px;
+        line-height: 42px;
+    } 
+    
+    /* услуги */ 
+    .services{
+        padding-top: 60px;
+    }
+    .index__h2{
+        font-size: 30px;
+        padding: 10px 0 10px;
+    }
+    .block-containers a{
+        padding: 10px 5px;
+    }
+    .block-containers h4{
+        font-size: 12px;
+        padding-top: 0;
+    }
+    .circle{
+        width: 75px;
+        height: 75px;
+        background-size: 50px auto;
+    }
+
+    /* о компании */
+    .company{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .company__bg{
+        display: none;  
+    }
+    .company__block5{
+        width: 49%;
+    }
+    .map{
+        display: none;
+    }
+    /* 404 */
+    .error-404-h1{
+        font-size: 200px;
+    }
+    .error-404-p{
+        font-size: 30px;
+
+    }
+}
+
+@media (max-width: 600px){
+
+    /* affiche */
+    .affiche{
+        padding: 60px 20px;
+    }
+    .affiche__tagline{
+        padding: 10px 0 10px;
+    }
+    .affiche__h1 {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .affiche__p {
+        font-size: 12px;
+        padding-top: 0;
+    }
+
+    /* affiche-other */
+    .affiche-other{
+        padding: 60px 20px;
+    }
+    .affiche-other__tagline{
+        padding: 5px 0;
+    }
+    .affiche-other__h1 {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    /* container */
+    .container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+        
+    /* услуги */ 
+    .block-containers{
+        width: 49.7%;
+        background-color: #C8A35F;
+    }
+    .block-containers a{
+        padding: 4px 4px 10px;
+    } 
+    .circle{
+        width: 70px;
+        height: 70px;
+        border-radius: 0;
+        background-size: 50px auto;
+    } 
+    a:hover .circle{
+        background-size: 40px auto;
+    }
+    a:hover .rem{
+        background-image: url(images/rem2.png);
+    }
+    a:hover .to{
+        background-image: url(images/to2.png);
+    }
+    a:hover .ai{
+        background-image: url(images/ai2.png);
+    }
+    a:hover .tos{
+        background-image: url(images/tos2.png);
+    }
+    a:hover .dis{
+        background-image: url(images/dis2.png);
+    }
+    a:hover .mm{
+        background-image: url(images/mm2.png);
+    }
+    a:hover .circle{
+        background-color: transparent;
+    }
+   .block-containers h4{
+        font-size: 10px;
+        line-height: 14px;
+    } 
+
+    /* о компании */
+    .company{
+        flex-direction: column;
+    }
+    .company__left{
+        width: 100%;
+    }
+    .company__right{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .company__block5{
+        width: 33%;
+        height: 130px;
+    }
+    .number{
+        font-size: 49px;
+        line-height: 64px;
+    }
+    .number+p{
+        font-size: 12px;
+    }
+    /* 404 */
+    .error-404-h1{
+        font-size: 76px;
+    }
+    .error-404-p{
+        font-size: 20px;
+
+    }
+}
+
+@media (max-width: 450px){
+
+    /* услуги */
+    .circle{
+        width: 50px;
+        height: 50px;
+        background-size: 35px auto;
+    } 
+    a:hover .circle{
+        background-size: 35px auto;
+    }
+    /* о компании */
+    .company__block5{
+        width: 49%;
+    }
+    .fl1{
+        order: 1;
+    }
+    .fl2{
+        order: 4;
+    }
+    .fl3{
+        order: 3;
+    }
+    .fl4{
+        order: 2;
+    }
+    .fl5{
+        order: 5;
+    }
+}    
